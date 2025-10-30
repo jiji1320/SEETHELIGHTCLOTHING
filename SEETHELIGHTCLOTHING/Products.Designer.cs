@@ -1,6 +1,6 @@
 ﻿namespace SEETHELIGHTCLOTHING
 {
-    partial class SalesHistory
+    partial class Products
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SalesHistory));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Products));
             this.lblMyProfile = new System.Windows.Forms.Label();
             this.lblMenu = new System.Windows.Forms.Label();
             this.lblSignOut = new System.Windows.Forms.Label();
@@ -54,7 +54,7 @@
             this.lblMyProfile.Location = new System.Drawing.Point(67, 162);
             this.lblMyProfile.Name = "lblMyProfile";
             this.lblMyProfile.Size = new System.Drawing.Size(108, 25);
-            this.lblMyProfile.TabIndex = 33;
+            this.lblMyProfile.TabIndex = 43;
             this.lblMyProfile.Text = "My Profile";
             // 
             // lblMenu
@@ -66,7 +66,7 @@
             this.lblMenu.Location = new System.Drawing.Point(65, 21);
             this.lblMenu.Name = "lblMenu";
             this.lblMenu.Size = new System.Drawing.Size(66, 25);
-            this.lblMenu.TabIndex = 32;
+            this.lblMenu.TabIndex = 42;
             this.lblMenu.Text = "Menu";
             // 
             // lblSignOut
@@ -78,7 +78,7 @@
             this.lblSignOut.Location = new System.Drawing.Point(75, 465);
             this.lblSignOut.Name = "lblSignOut";
             this.lblSignOut.Size = new System.Drawing.Size(97, 25);
-            this.lblSignOut.TabIndex = 31;
+            this.lblSignOut.TabIndex = 41;
             this.lblSignOut.Text = "Sign Out";
             // 
             // lblMaterials
@@ -90,7 +90,7 @@
             this.lblMaterials.Location = new System.Drawing.Point(65, 329);
             this.lblMaterials.Name = "lblMaterials";
             this.lblMaterials.Size = new System.Drawing.Size(100, 25);
-            this.lblMaterials.TabIndex = 30;
+            this.lblMaterials.TabIndex = 40;
             this.lblMaterials.Text = "Materials";
             // 
             // lblProducts
@@ -102,7 +102,7 @@
             this.lblProducts.Location = new System.Drawing.Point(67, 227);
             this.lblProducts.Name = "lblProducts";
             this.lblProducts.Size = new System.Drawing.Size(97, 25);
-            this.lblProducts.TabIndex = 29;
+            this.lblProducts.TabIndex = 39;
             this.lblProducts.Text = "Products";
             // 
             // lblReport
@@ -114,7 +114,7 @@
             this.lblReport.Location = new System.Drawing.Point(67, 260);
             this.lblReport.Name = "lblReport";
             this.lblReport.Size = new System.Drawing.Size(75, 25);
-            this.lblReport.TabIndex = 28;
+            this.lblReport.TabIndex = 38;
             this.lblReport.Text = "Report";
             // 
             // lblCustomers
@@ -126,7 +126,7 @@
             this.lblCustomers.Location = new System.Drawing.Point(67, 296);
             this.lblCustomers.Name = "lblCustomers";
             this.lblCustomers.Size = new System.Drawing.Size(116, 25);
-            this.lblCustomers.TabIndex = 27;
+            this.lblCustomers.TabIndex = 37;
             this.lblCustomers.Text = "Customers";
             // 
             // lblSalesHistory
@@ -138,7 +138,7 @@
             this.lblSalesHistory.Location = new System.Drawing.Point(67, 197);
             this.lblSalesHistory.Name = "lblSalesHistory";
             this.lblSalesHistory.Size = new System.Drawing.Size(140, 25);
-            this.lblSalesHistory.TabIndex = 26;
+            this.lblSalesHistory.TabIndex = 36;
             this.lblSalesHistory.Text = "Sales History";
             // 
             // label5
@@ -150,7 +150,7 @@
             this.label5.Location = new System.Drawing.Point(67, 162);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(0, 25);
-            this.label5.TabIndex = 25;
+            this.label5.TabIndex = 35;
             // 
             // lblDashboard
             // 
@@ -161,28 +161,28 @@
             this.lblDashboard.Location = new System.Drawing.Point(67, 127);
             this.lblDashboard.Name = "lblDashboard";
             this.lblDashboard.Size = new System.Drawing.Size(117, 25);
-            this.lblDashboard.TabIndex = 24;
+            this.lblDashboard.TabIndex = 34;
             this.lblDashboard.Text = "Dashboard";
             // 
             // PBbar
             // 
             this.PBbar.Image = ((System.Drawing.Image)(resources.GetObject("PBbar.Image")));
-            this.PBbar.Location = new System.Drawing.Point(32, 14);
+            this.PBbar.Location = new System.Drawing.Point(32, 12);
             this.PBbar.Name = "PBbar";
             this.PBbar.Size = new System.Drawing.Size(35, 32);
-            this.PBbar.TabIndex = 34;
+            this.PBbar.TabIndex = 44;
             this.PBbar.TabStop = false;
             // 
             // PBdashboard
             // 
             this.PBdashboard.Image = ((System.Drawing.Image)(resources.GetObject("PBdashboard.Image")));
-            this.PBdashboard.Location = new System.Drawing.Point(33, 118);
+            this.PBdashboard.Location = new System.Drawing.Point(32, 118);
             this.PBdashboard.Name = "PBdashboard";
             this.PBdashboard.Size = new System.Drawing.Size(34, 34);
-            this.PBdashboard.TabIndex = 35;
+            this.PBdashboard.TabIndex = 45;
             this.PBdashboard.TabStop = false;
             // 
-            // SalesHistory
+            // Products
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -202,9 +202,8 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lblDashboard);
             this.DoubleBuffered = true;
-            this.Name = "SalesHistory";
-            this.Text = "SalesHistory";
-            this.Load += new System.EventHandler(this.SalesHistory_Load);
+            this.Name = "Products";
+            this.Text = "Products";
             ((System.ComponentModel.ISupportInitialize)(this.PBbar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBdashboard)).EndInit();
             this.ResumeLayout(false);

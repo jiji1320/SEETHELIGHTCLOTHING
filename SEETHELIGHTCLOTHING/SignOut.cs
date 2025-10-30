@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace SEETHELIGHTCLOTHING
 {
-    public partial class SalesHistory : Form
+    public partial class SignOut : Form
     {
-        public SalesHistory()
+        public SignOut()
         {
             InitializeComponent();
         }
 
-        private void SalesHistory_Load(object sender, EventArgs e)
+        private void SignOut_Load(object sender, EventArgs e)
         {
 
         }

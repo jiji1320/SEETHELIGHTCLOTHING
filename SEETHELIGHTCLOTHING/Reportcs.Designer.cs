@@ -1,6 +1,6 @@
 ﻿namespace SEETHELIGHTCLOTHING
 {
-    partial class SalesHistory
+    partial class Reportcs
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SalesHistory));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reportcs));
             this.lblMyProfile = new System.Windows.Forms.Label();
             this.lblMenu = new System.Windows.Forms.Label();
             this.lblSignOut = new System.Windows.Forms.Label();
@@ -39,9 +39,9 @@
             this.lblSalesHistory = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.lblDashboard = new System.Windows.Forms.Label();
-            this.PBbar = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PBdashboard = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.PBbar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBdashboard)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,7 +54,7 @@
             this.lblMyProfile.Location = new System.Drawing.Point(67, 162);
             this.lblMyProfile.Name = "lblMyProfile";
             this.lblMyProfile.Size = new System.Drawing.Size(108, 25);
-            this.lblMyProfile.TabIndex = 33;
+            this.lblMyProfile.TabIndex = 53;
             this.lblMyProfile.Text = "My Profile";
             // 
             // lblMenu
@@ -66,7 +66,7 @@
             this.lblMenu.Location = new System.Drawing.Point(65, 21);
             this.lblMenu.Name = "lblMenu";
             this.lblMenu.Size = new System.Drawing.Size(66, 25);
-            this.lblMenu.TabIndex = 32;
+            this.lblMenu.TabIndex = 52;
             this.lblMenu.Text = "Menu";
             // 
             // lblSignOut
@@ -78,7 +78,7 @@
             this.lblSignOut.Location = new System.Drawing.Point(75, 465);
             this.lblSignOut.Name = "lblSignOut";
             this.lblSignOut.Size = new System.Drawing.Size(97, 25);
-            this.lblSignOut.TabIndex = 31;
+            this.lblSignOut.TabIndex = 51;
             this.lblSignOut.Text = "Sign Out";
             // 
             // lblMaterials
@@ -90,7 +90,7 @@
             this.lblMaterials.Location = new System.Drawing.Point(65, 329);
             this.lblMaterials.Name = "lblMaterials";
             this.lblMaterials.Size = new System.Drawing.Size(100, 25);
-            this.lblMaterials.TabIndex = 30;
+            this.lblMaterials.TabIndex = 50;
             this.lblMaterials.Text = "Materials";
             // 
             // lblProducts
@@ -102,7 +102,7 @@
             this.lblProducts.Location = new System.Drawing.Point(67, 227);
             this.lblProducts.Name = "lblProducts";
             this.lblProducts.Size = new System.Drawing.Size(97, 25);
-            this.lblProducts.TabIndex = 29;
+            this.lblProducts.TabIndex = 49;
             this.lblProducts.Text = "Products";
             // 
             // lblReport
@@ -114,7 +114,7 @@
             this.lblReport.Location = new System.Drawing.Point(67, 260);
             this.lblReport.Name = "lblReport";
             this.lblReport.Size = new System.Drawing.Size(75, 25);
-            this.lblReport.TabIndex = 28;
+            this.lblReport.TabIndex = 48;
             this.lblReport.Text = "Report";
             // 
             // lblCustomers
@@ -126,7 +126,7 @@
             this.lblCustomers.Location = new System.Drawing.Point(67, 296);
             this.lblCustomers.Name = "lblCustomers";
             this.lblCustomers.Size = new System.Drawing.Size(116, 25);
-            this.lblCustomers.TabIndex = 27;
+            this.lblCustomers.TabIndex = 47;
             this.lblCustomers.Text = "Customers";
             // 
             // lblSalesHistory
@@ -138,7 +138,7 @@
             this.lblSalesHistory.Location = new System.Drawing.Point(67, 197);
             this.lblSalesHistory.Name = "lblSalesHistory";
             this.lblSalesHistory.Size = new System.Drawing.Size(140, 25);
-            this.lblSalesHistory.TabIndex = 26;
+            this.lblSalesHistory.TabIndex = 46;
             this.lblSalesHistory.Text = "Sales History";
             // 
             // label5
@@ -150,7 +150,7 @@
             this.label5.Location = new System.Drawing.Point(67, 162);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(0, 25);
-            this.label5.TabIndex = 25;
+            this.label5.TabIndex = 45;
             // 
             // lblDashboard
             // 
@@ -161,17 +161,17 @@
             this.lblDashboard.Location = new System.Drawing.Point(67, 127);
             this.lblDashboard.Name = "lblDashboard";
             this.lblDashboard.Size = new System.Drawing.Size(117, 25);
-            this.lblDashboard.TabIndex = 24;
+            this.lblDashboard.TabIndex = 44;
             this.lblDashboard.Text = "Dashboard";
             // 
-            // PBbar
+            // pictureBox1
             // 
-            this.PBbar.Image = ((System.Drawing.Image)(resources.GetObject("PBbar.Image")));
-            this.PBbar.Location = new System.Drawing.Point(32, 14);
-            this.PBbar.Name = "PBbar";
-            this.PBbar.Size = new System.Drawing.Size(35, 32);
-            this.PBbar.TabIndex = 34;
-            this.PBbar.TabStop = false;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(32, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(35, 32);
+            this.pictureBox1.TabIndex = 55;
+            this.pictureBox1.TabStop = false;
             // 
             // PBdashboard
             // 
@@ -179,10 +179,10 @@
             this.PBdashboard.Location = new System.Drawing.Point(33, 118);
             this.PBdashboard.Name = "PBdashboard";
             this.PBdashboard.Size = new System.Drawing.Size(34, 34);
-            this.PBdashboard.TabIndex = 35;
+            this.PBdashboard.TabIndex = 56;
             this.PBdashboard.TabStop = false;
             // 
-            // SalesHistory
+            // Reportcs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -190,7 +190,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1228, 625);
             this.Controls.Add(this.PBdashboard);
-            this.Controls.Add(this.PBbar);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblMyProfile);
             this.Controls.Add(this.lblMenu);
             this.Controls.Add(this.lblSignOut);
@@ -202,10 +202,10 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lblDashboard);
             this.DoubleBuffered = true;
-            this.Name = "SalesHistory";
-            this.Text = "SalesHistory";
-            this.Load += new System.EventHandler(this.SalesHistory_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.PBbar)).EndInit();
+            this.Name = "Reportcs";
+            this.Text = "Reportcs";
+            this.Load += new System.EventHandler(this.Reportcs_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBdashboard)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -224,7 +224,7 @@
         private System.Windows.Forms.Label lblSalesHistory;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lblDashboard;
-        private System.Windows.Forms.PictureBox PBbar;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox PBdashboard;
     }
 }

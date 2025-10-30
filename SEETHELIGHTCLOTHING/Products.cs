@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace SEETHELIGHTCLOTHING
 {
-    public partial class SalesHistory : Form
+    public partial class Products : Form
     {
-        public SalesHistory()
+        public Products()
         {
             InitializeComponent();
-        }
-
-        private void SalesHistory_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
