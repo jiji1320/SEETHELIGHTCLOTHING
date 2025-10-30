@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SEETHELIGHTCLOTHING
 {
-    public partial class Form1 : Form
+    public partial class LogIn : Form
     {
-        public Form1()
+        public LogIn()
         {
             InitializeComponent();
         }
@@ -25,6 +25,14 @@ namespace SEETHELIGHTCLOTHING
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnLogIn_Click(object sender, EventArgs e)
+        {
+            var dashboard = new DashBoard();
+            this.Hide();
+            dashboard.FormClosed += (s, args) => this.Close();
+            dashboard.Show();
         }
     }
 }
